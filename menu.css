@@ -1,0 +1,67 @@
+body {
+    background-image: url(wallpaper.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+header {
+    background-color: black;
+    font-size: 5mm;
+    color: aqua;
+    font-family: cursive;
+    text-transform: uppercase;
+    justify-content: center;
+    border: 10px;
+}
+
+header:hover {
+    transform: scale(0.8);
+    transition-duration: 1000ms;
+    transform-origin: top;
+}
+
+.container-bg {
+    background-image: url(chef.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: 700px;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.menulist {
+    color: rgb(205, 166, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    border: 10px solid rgb(79, 104, 104);
+    border-radius: 8000px;
+    opacity: 0.5;
+}
+
+img:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    opacity: 1.0;
+}
